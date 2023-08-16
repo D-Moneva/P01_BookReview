@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  Background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar {
+  position: relative;
+  background-color: #eff4f7;
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  z-index: 5;
+}
+
+.links {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.links a {
+  text-decoration: none;
+  padding-bottom: 17px;
+  color: #a4a8a9;
+}
+
+.links a:hover {
+  cursor: pointer;
+  color: #333;
+  border-bottom: 3px solid #70e9ff;
+}
+
+.logo {
+  position: absolute;
+  background-color: #ea3d51;
+  z-index: 0;
+  top: 20px;
+  left: 784px;
+  width: 100px;
+  height: 100px;
+}
+
+.logo-name {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  margin-top: 76px;
+  color: #ffffff;
+}
+
+.main-container {
+  background-color: #CBD0D9;
+  width: 80%;
+  margin: 80px auto;
+}
+
+.book-title {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 10;
+  color: #121f25;
+  font-size: 54px;
+  margin: 0;
+}
+
+.book-genre {
+  display: inline;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 3;
+  top: -85px;
+  left: 537px;
+  color: #6dffb8;
+  font-size: 120px;
+  margin: 0;
+}
+
+.user-review {
+  border: 2px solid red;
+  position: relative;
+  width: 300px;
+  padding: 40px;
+  margin: 0 auto;
+  z-index: 8;
+  color: #ffffff;
+  text-align: center;
+  background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center; 
+}
+
+img {
+  width: 100%;
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+.rating {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.description::before,
+.description::after {
+  content: ' " ';
+  color: #af213d;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.donate-button {
+  background: none;
+  border: 3px solid #70ecff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 10px 25px;
+}
+
+.donate-button:hover {
+  background-color: #70ecff;
+  color: #348098;
+}
+
+.books-chapter {
+  position: relative;
+  background-color: #ffffff;
+  margin: 50px;
+  color: #121f25;
+  z-index: 4;
+  top: -250px;
+  padding: 250px 35px 35px 35px;
+}
+
+.books-chapter h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+  color: #46ee97;
+}
+
+.books-chapter p {
+  width: 70%;
+  color: #121f25;
+}
+
+.read-book {
+  background: none;
+  border: 3px solid #628291;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333;
+  margin-top: 15px;
+  padding: 10px 25px;
+}
+
+.read-book:hover {
+  background-color: #628291;
+  color: #6dffb8;
+  cursor: pointer;
+}
